@@ -27,7 +27,7 @@ body {
 .centered-main-page-element {
   display: block;
   width: 500px;
-  margin: 0 auto 0;
+  margin: 20px auto 0;
 }
 .task {
   width: 56%;
@@ -35,7 +35,7 @@ body {
   flex-grow: 1;
 }
 .task-row-wrapper {
-  display: flex;
+  border: none;
 }
 ul {
   margin: 0;
@@ -94,6 +94,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 input#new-task {
+  display: block;
   width: 318px;
 }
 
